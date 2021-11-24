@@ -33,9 +33,9 @@ public class Ejemplo07 {
         System.out.println("Ingrese las notas de los estudiantes de su materia");
         while (bandera) {
             System.out.println("Ingrese calificación");
-            calificacion = entrada.nextDouble();
-            suma_total = suma_total + calificacion;
-            contador = contador + 1;
+            calificacion = entrada.nextDouble(); // 2 - 2
+            suma_total = suma_total + calificacion; // 0+2=2 2+2
+            contador = contador + 1; // 0+1=1
             // proceso para salir del ciclo.
             System.out.println("Ingrese el valor de -1 para salir del ciclo");
             int temporal = entrada.nextInt();

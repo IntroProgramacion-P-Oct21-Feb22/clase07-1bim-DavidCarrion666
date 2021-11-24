@@ -29,19 +29,19 @@ public class Ejemplo08 {
         double calificacion;
         boolean bandera = true;
 
-        System.out.println("Ingrese las notas de los estudiantes de su materia");
+       System.out.println("Ingrese las notas de los estudiantes de su materia");
         while (bandera) {
             System.out.println("Ingrese calificación:");
-            calificacion = entrada.nextDouble();
-            suma_total = suma_total + calificacion;
-            contador = contador + 1;
+            calificacion = entrada.nextDouble(); // 10 10
+            suma_total = suma_total + calificacion; // 0+10=10
+            contador = contador + 1; // 0+1=1
 
             entrada.nextLine(); // Ojo usamos el limpiador del scanner (buffer)
 
             // proceso para salir del ciclo.
-            System.out.println("Ingrese si(salir)");
+            System.out.println("Ingrese si o s para salir");
             String temporal = entrada.nextLine();
-            if (temporal.equals("si")) {
+            if (temporal.equals ("si") || temporal.equals ("s")) {
                 bandera = false;
             }
         }

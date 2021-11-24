@@ -32,6 +32,10 @@ public class Ejemplo06 {
         while (bandera){
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
+            
+            if (calificacion > 20){
+                calificacion= 20;
+            }
             suma_total = suma_total + calificacion;
                        
             // proceso para salir del ciclo.

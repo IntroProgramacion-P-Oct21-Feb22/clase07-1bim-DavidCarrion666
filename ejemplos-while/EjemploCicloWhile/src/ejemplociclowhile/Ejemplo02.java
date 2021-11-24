@@ -10,19 +10,21 @@ package ejemplociclowhile;
  * @author reroes
  */
 public class Ejemplo02 {
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        int limite = 10;
+
+        int limite = 20;
         int contador = 1;
-          
-        while (contador <= limite){
+
+        while (contador <= limite) {
             System.out.printf("Contador %d\n", contador);
-            
+            contador = contador + 1;
+
         }
-        
+
     }
 }

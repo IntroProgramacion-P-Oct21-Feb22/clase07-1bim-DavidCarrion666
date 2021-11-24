@@ -34,13 +34,17 @@ public class Ejemplo05 {
         
         while (contador <= limite){
             System.out.printf("Ingrese calificación número %d\n", contador);
+            //2 - 2 - 2
+            
             calificacion = entrada.nextDouble();
-            suma_total = suma_total + calificacion;
-            // contador
+            suma_total = suma_total + calificacion; 
+            // 0+2=2 2+2=4 4+2=6
             contador = contador + 1;
+            // 1+1=2 2+1=3 3+1=4
         }
         
         promedio_final = suma_total/limite;
+            // 6/3=2
         System.out.printf("El promedio final es %f\n", promedio_final);
         
     }
