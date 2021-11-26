@@ -15,7 +15,7 @@ public class DemoCadenas02 {
         String ciudad = "Loja";
         String fechaIndependencia = "18 de noviembre";
         
-        System.out.printf("%s\n%s\n%s\n",
+        System.out.printf("%s\t%s\t%s\t",
                 pais,
                 ciudad,
                 fechaIndependencia);
